@@ -8,4 +8,16 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    n1=len(s1)
+    n2=len(s2)
+    n3=len(s3)
+    ans='['
+    if n1%2!=0:
+        ans+=","+s2
+    if n2%2!=0:
+        ans+=","+s2
+    if n3%2!=0:
+        ans+=","+s3
+
+    return ans+']'
+print(main('11','22','31'))
