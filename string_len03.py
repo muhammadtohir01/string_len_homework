@@ -1,3 +1,6 @@
+
+
+
 def main(a,b):
     """
     String type variables a and b are given. Return True if the length is equal. If not equal, return False.
@@ -7,4 +10,8 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    if len(a)==len(b):
+        return True
+    else:
+        return False
+print(main('cod','cd'))
